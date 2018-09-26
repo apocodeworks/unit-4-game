@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+
+</head>
+<body>
+        <h1>Crystal Collector</h1>
+    <div class="container" id="gamePort">
+        
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6, gamePort">
+                <div class="textPort" id="mainPort">
+                   
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="row">
+                    <div class="col-sm-3">
+                        <img id="emerald" src="./assets/em1.png">
+                    </div>
+                    <div class="col-sm-3">
+                        <img id="ruby" src="./assets/rub1.png">
+                    </div>
+                    <div class="col-sm-3">
+                        <img id="sapphire" src="./assets/sap1.png">
+                    </div>
+                    <div class="col-sm-3">
+                        <img id="diamond" class="test" src="./assets/dia1.png">
+                    </div>
+                </div>
+                <br><br><br>
+            
+            <div id="instructions">
+                You will be given a random number at the start of the game.
+                <br>
+                There are four crystals above. By clicking on a crystal you will add a specific amount of points to your total score.
+                <br>
+                You win the game by matching your total score to the given number. You lose if your score surpasses that number.
+                <br>
+                The value of each crystal is randomized each round.
+                <br>
+                Good luck!
+            </div>
+                <br><br>
+            <div id="scoreboard">
+                    <div id="guessNumber">
+                            Number to guess: <span id="guessValue"> </span>
+                        </div>
+                    <div id="winsbox">
+                        Wins: <span id="wins">0</span>
+                    </div>
+                    <div id="lossesbox">
+                        Losses: <span id="losses">0</span>
+                    </div>
+                    <div id="scorebox">
+                        Score: <span id="score">0</span>
+                    </div>
+            </div>
+
+        </div>
+       
+       
+          
+    </div>
+
+
+</body>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/game.js"></script>
+
+</html>
